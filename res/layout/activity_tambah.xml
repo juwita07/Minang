@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/outindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhs. Indonesia"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/addIndo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/outminangg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhs. minang"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/addminang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simpan" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:listitem="@layout/item_custom_listview" >
+
+    </ListView>
+
+</LinearLayout>
